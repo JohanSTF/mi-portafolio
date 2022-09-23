@@ -38,7 +38,7 @@ li{
 .menu-a-style{
     color: white;
     text-decoration: none;
-    padding: 0 25px;
+    padding: 25px;
 }
 
 /* .menu-a-style:hover{
@@ -47,12 +47,9 @@ li{
 
 
 .style-icon{
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
-.style-icons{
-    margin-right: 20px;
-}
 
 .table-box{
     width: 100%;
