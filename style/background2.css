@@ -10,14 +10,49 @@ height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+.login-box {
+    width: 350px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.552);
+    border-radius: 12px;
+   
+    
+
+}
+.icon-box {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    top: -65px;
+    left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user {
+    color: white;
+    font-size: 4em;
+}
+
+
+.icon-style {
+ width: 40px;
+ height: 40px;
+}
+
 @media only screen and (max-width: 600px) {
     .main-content {
         background-image: url("../img/tower.jpg");
         background-size: cover;
         background-position: center right;
     }
-
-        
     
 }
