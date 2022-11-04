@@ -59,7 +59,7 @@ align-items: center;
 
 .form-title{
     width: 90%;
-    display: flex;
+    display: flex;-
     justify-content: center;
     align-items: center;
     flex-direction: column;
